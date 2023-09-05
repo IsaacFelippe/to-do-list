@@ -1,0 +1,54 @@
+.main-card{
+    background-color: rgb(173, 173, 173);
+    margin-left: 80%;
+    width: 350px;
+    height: 400px;
+    text-align: center;
+    margin-top: 15%;
+    display: grid;
+    grid-template-rows: 0.2fr 1fr 0.2fr;
+}
+.list-card{
+    width: 85%;
+    height: 85%;
+    margin-top: 15px;
+    margin-left: 25px;
+    overflow: auto; 
+}
+.list{
+    display: flex;
+    flex-direction: column;
+    
+}   
+.exclude-button{
+    background-color: rgba(0, 0, 0, 0);
+    border-color: rgba(0, 0, 0, 0);
+    margin-right: 10px;
+    cursor: pointer;
+}
+.item-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgb(145, 136, 153);
+    margin-bottom: 5px;
+    border-radius: 5px;
+}
+
+.input-area{
+    margin-bottom: 10px;
+}
+
+.item{
+    flex-grow: 1;
+    overflow-wrap: break-word;
+    text-align: left;
+}
+
+.done-button{
+    background-color: rgba(0, 0, 0, 0);
+    border-color: rgba(0, 0, 0, 0);
+    padding: 10px;
+    margin-left: 10px;
+    cursor: pointer;
+}
